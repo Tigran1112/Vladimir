@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.imghead{
+    width: 100%;
+    background: #000;
+    filter: brightness(50%);
+    position: relative;
+    left: -8px;
+}
+.name{
+    position: relative;
+    top: -600px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 999;
+}
+.des{
+    color: #ffffff;
+    position: relative;
+    top: -600px;
+    font-size: 22px;
+}
+.more{
+    font-size: 30px;
+    position: relative;
+    top: -580px;
+    background-color: #00daaa;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.more:hover {
+  background-color: #ffffff;
+  color:#00daaa;
+}
+.about_us{
+    position: relative;
+    top: 100px;
+    left: -10px;
+    font-size: 80px;
+    width: 700px;
+    height: 1000px;
+    border: 10px solid #00daaa;
+    border-radius: 50px;
+    z-index: 1;
+}
+.ab{
+    text-align: center;
+}
+.about_us_img{
+    width: 450px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    border-radius: 50px;
+}
+.infa{
+    font-size: 80px;
+    text-align: center;
+}

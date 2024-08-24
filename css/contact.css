@@ -1,0 +1,40 @@
+body{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.phone{
+    position: relative;
+    top: 200px;
+    left: 300px;
+    font-size: 50px;
+    background-color: #00daaa;
+    color: #fff;
+    width: 380px;
+    border: transparent;
+    border-radius: 50px;
+}
+.copy{
+    position: relative;
+    top: 210px;
+    left: 300px;
+    font-size: 30px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #00daaa;
+    color: #ffffff;
+}
+.avito{
+    position: relative;
+    left: 310px;
+    top: 200px;
+    color: #00daaa;
+    font-weight: 900;
+    font-size: 40px;
+}
+.autor{
+    font-size: 20px;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
