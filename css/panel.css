@@ -1,6 +1,6 @@
 body{
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 .tabh{
@@ -14,22 +14,23 @@ body{
     z-index: 999;
     top: 0px;
     left: -0px;
+    background-color: #fff;
 }
 .but{
-    font-size: 60px;
+    font-size: 40px;
     position: relative;
-    left: 100px;
+    left: 5%;
     top: -10px;
     border: transparent;
     background-color: transparent;
-    color: #00daaa;
+    color: #00c1da;
     border-radius: 20px;
     transition: 0.3s;
     text-decoration: none;
     margin-right: 50px;
 }
 .but:hover{
-    color: #00ffc8;
+    color: #37e0f77a;
 }
 .menuimg{
     height: 70px;
@@ -37,4 +38,13 @@ body{
     top: 5px;
     border: transparent;
     border-radius: 15px;
+}
+.adres{
+    color: #00c1da;
+    font-size: 40px;
+    width: 50px;
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    margin-left: 30px;
 }

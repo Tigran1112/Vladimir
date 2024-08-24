@@ -2,40 +2,43 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
 .imghead{
-    width: 100%;
-    background: #000;
-    filter: brightness(50%);
+    width: 100.6%;
     position: relative;
     left: -8px;
+    top: 80px;
 }
 .name{
     position: relative;
     top: -600px;
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 999;
+    color: #000;
+    font-size: xx-large;
+    width: 100%;
+    height: 100px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
 }
 .des{
-    color: #ffffff;
+    color: #000;
     position: relative;
     top: -600px;
     font-size: 22px;
-}
-.more{
-    font-size: 30px;
-    position: relative;
-    top: -580px;
-    background-color: #00daaa;
-    color: #ffffff;
-    border: transparent;
-    border-radius: 50px;
-    transition: 0.3s;
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .more:hover {
   background-color: #ffffff;
@@ -46,10 +49,8 @@ body{
     top: 100px;
     left: -10px;
     font-size: 80px;
-    width: 700px;
+    width: 100%;
     height: 1000px;
-    border: 10px solid #00daaa;
-    border-radius: 50px;
     z-index: 1;
 }
 .ab{
@@ -58,11 +59,23 @@ body{
 .about_us_img{
     width: 450px;
     position: relative;
-    left: 100px;
+    left: 39%;
     top: 10px;
     border-radius: 50px;
 }
 .infa{
     font-size: 80px;
     text-align: center;
+}
+.otzivs{
+    position: relative;
+    top: 800px;
+
+}
+.otziv{
+    border: 5px solid #00daaa;
+}
+.name{
+    position: relative;
+    font-size: 30px;
 }
