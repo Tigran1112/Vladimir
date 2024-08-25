@@ -1,13 +1,15 @@
-import aiogram
-from aiogram import types
-from aiogram.dispatcher import Dispatcher
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram import Bot, Dispatcher
 from aiogram.utils import executor
-from aiogram.dispatcher.filters import Text
-from aiogram.types import ParseMode
 
-bot = aiogram.Bot(token="7104729744:AAHk9Kf_p4h0kIYfoG2Y2AnZvEBM5RphUpE")
+API_TOKEN = '7104729744:AAHk9Kf_p4h0kIYfoG2Y2AnZvEBM5RphUpE'
+CHAT_ID = '5079152888'
+
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-@dp.message_handler()
-async def echo(message: types.Message):
-    await bot.send_message("Код на Гитхабе", reply_markup=keyboard)
+
+async def on_startup(dispatcher: Dispatcher):
+    # Отправляем сообщение при запуске
+    await bot.send_message(CHAT_ID, "Код на Гитхабе")
+
+if __name__ == '__main__':
+    executor.start_polling(dp, on_startup=on_startup, skip_updates=True)
