@@ -37,16 +37,30 @@ body{
     left: 25%; /* Центровка галереи */
     overflow: hidden;
     top: 150px;
+    border: transparent;
+    border-radius: 50px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .gallery-slides {
     display: flex;
     transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    border-radius: 50px;
 }
 
 .gallery-slide {
     min-width: 100%;
     box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .gallery-slide img {
@@ -56,6 +70,8 @@ body{
     object-fit: contain; /* Сохранение пропорций без обрезания */
     display: block;
     margin: 0 auto; /* Центровка изображения внутри слайда */
+    border: transparent;
+    border-radius: 50px;
 }
 
 .gallery-buttons {
@@ -66,7 +82,10 @@ body{
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
-    padding: 0 10px; /* Уменьшаем отступы от краев */
+    padding: 0 20px; /* Уменьшаем отступы от краев */
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 50px;
 }
 
 .prev, .next {
@@ -87,4 +106,5 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #00c1da;
+    position: relative;
 }
