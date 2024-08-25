@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портной Акскай</title>
+    <!--Шрифт-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!--css-->
     <link rel="stylesheet" href="../css/panel.css">
     <link rel="stylesheet" href="../css/myworks.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
     <div class="menu">
@@ -19,6 +25,27 @@
     </div>
     <div class="base">
         <div class="header"><b><i>Лучшее из коллекции</i></b></div>
+        <div class="gallery-container">
+            <div class="gallery-slides">
+                <div class="gallery-slide">
+                    <img src="/img/works/boy.jpg" alt="Image 1" class="Image1">
+                    <div class="des">Рубашка детская</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="/img/works/sudo.jpg" alt="Image 2" class="Image2">
+                    <div class="des">Сатаку</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="/img/works/zerebenok.jpg" alt="Image 3" class="Image3">
+                    <div class="des">Маленький жеребеночек</div>
+                </div>
+            </div>
+            <div class="gallery-buttons">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </div>
     </div>
+    <script src="../js/gallery.js"></script>
 </body>
 </html>
