@@ -22,7 +22,7 @@
 .but{
     font-size: 40px;
     position: relative;
-    left: 5%;
+    left: 2%;
     top: -10px;
     border: transparent;
     background-color: transparent;
@@ -30,7 +30,7 @@
     border-radius: 20px;
     transition: 0.3s;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 20px;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -49,12 +49,12 @@
 }
 .adres{
     color: #00c1da;
-    font-size: 40px;
+    font-size: 20px;
     width: 50px;
     position: relative;
     top: -10px;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
