@@ -6,10 +6,10 @@ body{
     position: relative;
     top: 200px;
     left: 300px;
-    font-size: 50px;
+    font-size: 5vw;
     background-color: #00c1da;
     color: #fff;
-    width: 420px;
+    width: 42vw;
     text-align: center;
     border: transparent;
     border-radius: 50px;
@@ -20,10 +20,10 @@ body{
     top: 200px;
     color: #00c1da;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 10vw;
 }
 .autor{
-    font-size: 20px;
+    font-size: 5vw;
     position: relative;
     left: 300px;
     top: 200px;

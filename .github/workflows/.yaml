@@ -1,0 +1,14 @@
+name:CI
+
+on:
+  push:
+    branch:
+      -master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo
+      run: |
+        echo "\n\n\nDone"
