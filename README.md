@@ -1,1 +1,1 @@
-Сайт для лучшего портного в Аксае!(все страницы разбиты на отдельные файлы, а код разрешается использовать для своих целей)
+Site for the best tailor in Aksay! (all pages are divided into separate files, and the code is allowed to be used for your own purposes)
